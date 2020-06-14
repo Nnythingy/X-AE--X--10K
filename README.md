@@ -1,10 +1,24 @@
-# X Æ A-10K - Project XXX
+# X Æ A-10K
 ## Introduction
 #### Hi! We are Team X Æ A-10K, consisting of 4 members who have recently started our programming journey. We will be targeting the following problem:
 
 **INTEGRATING WITH A SMART ENVIRONMENT**
 
-[Insert details about how technology can help, as well as our idea]
+* What’s the problem?
+
+Currently, the MyResponder App uses the “Call 995” function on the app to get through to SCDF Ops Centre, and SCDF would then dispatch emergency services and contact CFRs if necessary. However, depending on this function solely might lead to a waste of precious resources, if the user uses this function for non-emergency or false alarm calls. In 2018, there were 17,954 cases of non-emergency and false alarm calls, averaging to about 50 per day. In addition, by going through the SCDF Ops Centre, it might take some time before emergency services/CFRs are deployed to the incident site.
+
+
+* How can technology help?
+
+We can make use of IBM’s features, coupled with sensors and IoTs embedded in the environment, to provide useful info when an accident/fire happens such as live images and location details. Leveraging on the current implementation of MyResponder, we can ensure that community first responders (CFRs) can respond to incidents in a more efficient and timely manner. Sensors can also be used to detect any onset of fire before the fire becomes larger.
+
+
+* Idea that we proposed:
+
+Equipping lamp posts with Raspberry Pi Camera to record live images. These live images will be processed through the Object Detection Model and if it detects a fire, the location details of the lamp post will be sent to a server.
+By retrieving data such as location details from the server, the app can then notify CFRs of the location of incident immediately 
+
 
 ## Pitch Video
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
@@ -12,10 +26,10 @@
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 ## Architecture of Proposed Solution
-![alt text](https://github.com/Nnythingy/X-A-10K/blob/master/Proposed%20Workflow.jpg "Architecture")
+![alt text](https://github.com/Nnythingy/X-AE-A-10K/blob/master/Proposed%20Workflow.jpg "Architecture")
 
 ## Long Description
-[More details are available here](https://github.com/Nnythingy/X-A-10K/blob/master/DESCRIPTION.md)
+[More details are available here](https://github.com/Nnythingy/X-AE-A-10K/blob/master/DESCRIPTION.md)
 
 ## Getting Started
 Follow these instructions to install the required software and run a demo on your local machine for testing purposes
@@ -39,7 +53,7 @@ Follow these instructions to install the required software and run a demo on you
 #### Training the model
 1. Access the list of [Watson Services](https://dataplatform.cloud.ibm.com/data/services?target=watson&context=wdp) and open your visual recognition tool
 2. Click Create Model under Classify Images
-3. Click Browse and upload .jpeg, .png, or .zip files for training purposes (refer to [images](https://github.com/Nnythingy/X-A-10K/tree/master/images) for sample images that we used)
+3. Click Browse and upload .jpeg, .png, or .zip files for training purposes (refer to [images](https://github.com/Nnythingy/X-AE-A-10K/tree/master/images) for sample images that we used)
 4. Classify images under different classes
 5. Ensure that you have at least 2 classes (including “negative”) with at least 10 images in each class. More images uploaded will lead to a better and more accurate model.
 6. Click **Train Model** and wait for the model to be successfully trained
