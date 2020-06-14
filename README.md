@@ -145,15 +145,17 @@ for f in file_list:
 2. Data to populate the points on the map will come from the location details of lamp post which has detected a fire
 3. *Locations* button will lead to detailed list of current locations with SOS cases
 
+* SOS Locations
+
 ![alt text](https://github.com/Nnythingy/X-AE-A-10K/blob/master/images/sos_locations.jpg "Live cases location" )
 
-* SOS Locations
 1. This contains a list of current locations with SOS cases.
 2. Click on the first location to view the 3 different street camera views from the proposed smart lamp posts on the location.
 
+* LampPost Camera Near Locations
+
 ![alt text](https://github.com/Nnythingy/X-AE-A-10K/blob/master/images/Street_view.jpg "Live Video Feed")
 
-* LampPost Camera Near Locations
 1. Live video feed from smart Lamp Posts to view up-to-date information on current location. 
 
 #### Using the CFR account
