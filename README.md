@@ -108,7 +108,7 @@ for f in file_list:
 		base_url="www.server.com"
 		final_url="/{0}/friendly/{1}/url".format(base_url,any_value_here)
 
-		payload = {'id': kml_269, 'geo_lat': 1.36251, 'geo_long': 103.74579}
+		payload = {'id': 001, 'geo_lat': 1.36251, 'geo_long': 103.74579}
 		response = requests.post(final_url, data=payload)
 
 		print(response.text) #TEXT/HTML
