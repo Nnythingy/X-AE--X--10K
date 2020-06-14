@@ -117,7 +117,7 @@ for f in file_list:
 ### 2) Using the Android App
 #### Prerequisites
 * Installing the apk file:
-1. Download the apk on the emulator or android phone
+1. Download the [apk](https://github.com/Nnythingy/X-AE-A-10K/blob/master/app-release.apk) on the emulator or android phone
 2. Install the apk
 3. Open the app called scdf_ibm_call_for_code
 * Logging into the accounts for testing
