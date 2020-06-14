@@ -6,11 +6,12 @@ Equipping lamp posts with Raspberry Pi Camera to record live images. These live 
 ## Details
 
 We propose the use of Raspberry Pi Camera Module v2 to capture the image of the surroundings every 10s.
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![alt text](https://github.com/Nnythingy/X-AE-A-10K/blob/master/images/pi-camera-attached.jpg 'pi-camera')
 
 The raspberry pi device also consists of the object detection model (written in Python) as well as id and location details that is unique to each lampposts and is hard-coded in the system.
 
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![alt text](https://github.com/Nnythingy/X-AE-A-10K/blob/master/images/Object%20Model%20Detection%20Result%20%231.PNG 'Fire')
+![alt text](https://github.com/Nnythingy/X-AE-A-10K/blob/master/images/Object%20Model%20Detection%20Negative%20Result.PNG 'Negative')
 
 The image captured will then be processed via the object detection model in real-time. When the threshold is above 0.8, it will detect that there is a fire going on and send the id and location details to the server, in which the app will access. The server will store these details for up to 10 days, after which it will be deleted.
 
