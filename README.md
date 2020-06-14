@@ -26,7 +26,7 @@ By retrieving data such as location details from the server, the app can then no
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 ## Architecture of Proposed Solution
-![alt text](https://github.com/Nnythingy/X-AE-A-10K/blob/master/Proposed%20Workflow.jpg "Architecture")
+![alt text](https://github.com/Nnythingy/X-AE-A-10K/blob/master/images/Proposed%20Workflow.jpg "Architecture")
 
 ## Long Description
 [More details are available here](https://github.com/Nnythingy/X-AE-A-10K/blob/master/DESCRIPTION.md)
