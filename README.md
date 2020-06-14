@@ -126,7 +126,11 @@ for f in file_list:
 3. Any other combination will result in wrong password
 
 #### Using the admin account
+
+
 ![alt text](https://github.com/Nnythingy/X-AE-A-10K/blob/master/images/admin_home.jpg "Admin Home Page")
+
+
 * AppBar
 1. The icons on the AppBar are meant to imitate the similar functions as on the actual MyResponder App
 * Body
@@ -134,27 +138,37 @@ for f in file_list:
 2. Current Cases contain a button which can perform more functions. Eg: link to a new page/ look at more statistics (other buttons can have similar functions)
 3. Box that holds a miniature map view of Singapore. A bigger interactive map can be accessed by clicking on the blue border or accessing the bottom left corner on the screen and choosing *Location OverView*
 * Location OverView
+
 ![alt text](https://github.com/Nnythingy/X-AE-A-10K/blob/master/images/map_page.jpg "Live Map")
+
 1. Interactive Map view can be accessed here.
 2. Data to populate the points on the map will come from the location details of lamp post which has detected a fire
 3. *Locations* button will lead to detailed list of current locations with SOS cases
+
 ![alt text](https://github.com/Nnythingy/X-AE-A-10K/blob/master/images/sos_locations.jpg "Live cases location" )
+
 * SOS Locations
 1. This contains a list of current locations with SOS cases.
 2. Click on the first location to view the 3 different street camera views from the proposed smart lamp posts on the location.
+
 ![alt text](https://github.com/Nnythingy/X-AE-A-10K/blob/master/images/Street_view.jpg "Live Video Feed")
+
 * LampPost Camera Near Locations
 1. Live video feed from smart Lamp Posts to view up-to-date information on current location. 
 
 #### Using the CFR account
+
 ![alt text](https://github.com/Nnythingy/X-AE-A-10K/blob/master/images/cfr_home.jpg "CFR Home Page")
+
 * AppBar
 1. The icons on the AppBar are meant to imitate the similar functions as on the actual MyResponder App
 * Body
 1. Contains different services for CFR to use
 2. E-Services has an interactable button which will be similar to that in MyResponder App
 3. Closest SOS case will include the location data for the closest case for CFR to help. There will be a notification alert to alert the CFR to open the app to accept the request. By clicking the button *Accept Request*, there will be *Yes* or *Cancel*
+
 ![alt text](https://github.com/Nnythingy/X-AE-A-10K/blob/master/images/accepting_request.jpg "accepting the request")
+
 4. Clicking *Yes* will copy the location information of the nearest case into the phone’s clipboard. Then the app will open Google Maps from the phone. The CFR would then only need to paste the location to search how to get there.
 5. New Sign up has an interactable button which will allow a new user to Sign up
 6. More features deemed necessary can be added for the CFR
