@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-import 'package:clipboard_manager/clipboard_manager.dart';
 import 'package:device_apps/device_apps.dart';
-import 'package:call_number/call_number.dart';
-
+import 'package:flutter/services.dart';
+import 'package:url_launcher/url_launcher.dart';
 /*
 This page handles the individual accounts for the CFRs. They will have access to
 less details and have a simple UI to accept nearby SOS and speed dial function 
@@ -137,8 +136,8 @@ class HomeState extends State<HomeCFR> {
                                           child: Text("Yes"),
                                           onPressed: () {
                                             //Yes button click.
-                                            ClipboardManager.copyToClipBoard(
-                                                "Bukit Batok West Ave 8, #01-256/258 Block 166, Singapore 650166");
+                                            Clipboard.setData(ClipboardData(
+                                                text: "Bukit Batok West Ave 8, #01-256/258 Block 166, Singapore 650166"));
                                             DeviceApps.openApp(
                                                 "com.google.android.apps.maps");
                                           },
@@ -220,7 +219,7 @@ class HomeState extends State<HomeCFR> {
               child: IconButton(
                 icon: Icon(Icons.phone),
                 onPressed: () {
-                  CallNumber().callNumber('995');
+                  launch("tel:995");
                 },
                 color: Colors.green[400],
               ),
